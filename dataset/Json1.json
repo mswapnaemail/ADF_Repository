@@ -1,0 +1,742 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "jsonfiles"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"name": {
+					"type": "object",
+					"properties": {
+						"common": {
+							"type": "string"
+						},
+						"official": {
+							"type": "string"
+						},
+						"nativeName": {
+							"type": "object",
+							"properties": {
+								"zho": {
+									"type": "object",
+									"properties": {
+										"official": {
+											"type": "string"
+										},
+										"common": {
+											"type": "string"
+										}
+									}
+								},
+								"eng": {
+									"type": "object",
+									"properties": {
+										"official": {
+											"type": "string"
+										},
+										"common": {
+											"type": "string"
+										}
+									}
+								},
+								"por": {
+									"type": "object",
+									"properties": {
+										"official": {
+											"type": "string"
+										},
+										"common": {
+											"type": "string"
+										}
+									}
+								},
+								"hin": {
+									"type": "object",
+									"properties": {
+										"official": {
+											"type": "string"
+										},
+										"common": {
+											"type": "string"
+										}
+									}
+								},
+								"tam": {
+									"type": "object",
+									"properties": {
+										"official": {
+											"type": "string"
+										},
+										"common": {
+											"type": "string"
+										}
+									}
+								},
+								"rus": {
+									"type": "object",
+									"properties": {
+										"official": {
+											"type": "string"
+										},
+										"common": {
+											"type": "string"
+										}
+									}
+								},
+								"ell": {
+									"type": "object",
+									"properties": {
+										"official": {
+											"type": "string"
+										},
+										"common": {
+											"type": "string"
+										}
+									}
+								},
+								"tur": {
+									"type": "object",
+									"properties": {
+										"official": {
+											"type": "string"
+										},
+										"common": {
+											"type": "string"
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"tld": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"cca2": {
+					"type": "string"
+				},
+				"ccn3": {
+					"type": "string"
+				},
+				"cca3": {
+					"type": "string"
+				},
+				"cioc": {
+					"type": "string"
+				},
+				"independent": {
+					"type": "boolean"
+				},
+				"status": {
+					"type": "string"
+				},
+				"unMember": {
+					"type": "boolean"
+				},
+				"currencies": {
+					"type": "object",
+					"properties": {
+						"TWD": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"symbol": {
+									"type": "string"
+								}
+							}
+						},
+						"HKD": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"symbol": {
+									"type": "string"
+								}
+							}
+						},
+						"CNY": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"symbol": {
+									"type": "string"
+								}
+							}
+						},
+						"MOP": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"symbol": {
+									"type": "string"
+								}
+							}
+						},
+						"INR": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"symbol": {
+									"type": "string"
+								}
+							}
+						},
+						"USD": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"symbol": {
+									"type": "string"
+								}
+							}
+						},
+						"RUB": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"symbol": {
+									"type": "string"
+								}
+							}
+						},
+						"EUR": {
+							"type": "object",
+							"properties": {
+								"name": {
+									"type": "string"
+								},
+								"symbol": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"idd": {
+					"type": "object",
+					"properties": {
+						"root": {
+							"type": "string"
+						},
+						"suffixes": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						}
+					}
+				},
+				"capital": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"altSpellings": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"region": {
+					"type": "string"
+				},
+				"subregion": {
+					"type": "string"
+				},
+				"languages": {
+					"type": "object",
+					"properties": {
+						"zho": {
+							"type": "string"
+						},
+						"eng": {
+							"type": "string"
+						},
+						"por": {
+							"type": "string"
+						},
+						"hin": {
+							"type": "string"
+						},
+						"tam": {
+							"type": "string"
+						},
+						"rus": {
+							"type": "string"
+						},
+						"ell": {
+							"type": "string"
+						},
+						"tur": {
+							"type": "string"
+						}
+					}
+				},
+				"translations": {
+					"type": "object",
+					"properties": {
+						"ara": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"bre": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"ces": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"cym": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"deu": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"est": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"fin": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"fra": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"hrv": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"hun": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"ita": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"jpn": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"kor": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"nld": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"per": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"pol": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"por": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"rus": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"slk": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"spa": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"srp": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"swe": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"tur": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"urd": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						},
+						"zho": {
+							"type": "object",
+							"properties": {
+								"official": {
+									"type": "string"
+								},
+								"common": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"latlng": {
+					"type": "array",
+					"items": {
+						"type": "number"
+					}
+				},
+				"landlocked": {
+					"type": "boolean"
+				},
+				"area": {
+					"type": "number"
+				},
+				"demonyms": {
+					"type": "object",
+					"properties": {
+						"eng": {
+							"type": "object",
+							"properties": {
+								"f": {
+									"type": "string"
+								},
+								"m": {
+									"type": "string"
+								}
+							}
+						},
+						"fra": {
+							"type": "object",
+							"properties": {
+								"f": {
+									"type": "string"
+								},
+								"m": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				},
+				"flag": {
+					"type": "string"
+				},
+				"maps": {
+					"type": "object",
+					"properties": {
+						"googleMaps": {
+							"type": "string"
+						},
+						"openStreetMaps": {
+							"type": "string"
+						}
+					}
+				},
+				"population": {
+					"type": "integer"
+				},
+				"fifa": {
+					"type": "string"
+				},
+				"car": {
+					"type": "object",
+					"properties": {
+						"signs": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							}
+						},
+						"side": {
+							"type": "string"
+						}
+					}
+				},
+				"timezones": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"continents": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"flags": {
+					"type": "object",
+					"properties": {
+						"png": {
+							"type": "string"
+						},
+						"svg": {
+							"type": "string"
+						},
+						"alt": {
+							"type": "string"
+						}
+					}
+				},
+				"coatOfArms": {
+					"type": "object",
+					"properties": {
+						"png": {
+							"type": "string"
+						},
+						"svg": {
+							"type": "string"
+						}
+					}
+				},
+				"startOfWeek": {
+					"type": "string"
+				},
+				"capitalInfo": {
+					"type": "object",
+					"properties": {
+						"latlng": {
+							"type": "array",
+							"items": {
+								"type": "number"
+							}
+						}
+					}
+				},
+				"postalCode": {
+					"type": "object",
+					"properties": {
+						"format": {
+							"type": "string"
+						},
+						"regex": {
+							"type": "string"
+						}
+					}
+				},
+				"borders": {
+					"type": "array",
+					"items": {
+						"type": "string"
+					}
+				},
+				"gini": {
+					"type": "object",
+					"properties": {
+						"2011": {
+							"type": "number"
+						},
+						"2016": {
+							"type": "number"
+						},
+						"2018": {
+							"type": "number"
+						}
+					}
+				}
+			}
+		}
+	}
+}
