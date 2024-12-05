@@ -1,5 +1,13 @@
 {
 	"name": "ForGithubDataFactoory",
+	"properties": {
+		"globalParameters": {
+			"MainFolderPath": {
+				"type": "string",
+				"value": "https://swapnaadls.blob.core.windows.net/"
+			}
+		}
+	},
 	"location": "eastus2",
 	"identity": {
 		"type": "SystemAssigned",
