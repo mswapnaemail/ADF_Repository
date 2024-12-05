@@ -5,6 +5,10 @@
 			"MainFolderPath": {
 				"type": "string",
 				"value": "https://swapnaadls.blob.core.windows.net/"
+			},
+			"SubFolderPath": {
+				"type": "string",
+				"value": "csvfiles / AppendVar_UseCases"
 			}
 		}
 	},
