@@ -8,7 +8,7 @@
 			},
 			"SubFolderPath": {
 				"type": "string",
-				"value": "csvfiles / AppendVar_UseCases /"
+				"value": "csvfiles/AppendVar_UseCases /"
 			}
 		}
 	},
