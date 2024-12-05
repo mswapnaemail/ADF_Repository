@@ -1,0 +1,9 @@
+{
+	"name": "ForGithubDataFactoory",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c8c7095e-f594-4937-af10-376bf2879032",
+		"tenantId": "8303f45d-c862-44d3-9ac3-8cf7f79ae9ff"
+	}
+}
